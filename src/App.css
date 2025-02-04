@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+#root {
+  background-color: rgb(244, 244, 244);
+  height: 100vh;
+}
+#form {
+  width: 480px;
+  height: fit-content;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 60%);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ql-toolbar.ql-snow + .ql-container.ql-snow {
+  height: 230px;
+}
+.sha {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 60%);
+  border-radius: 10px;
+}
+.ql-toolbar.ql-snow {
+  background-color: rgb(220, 161, 88);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+.al {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 60%);
+}
+
+@media only screen and (max-width: 400px) {
+  #root {
+    height: 100%;
+  }
+}
