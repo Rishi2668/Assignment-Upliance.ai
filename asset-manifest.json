@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Assignment-Upliance.ai/static/css/main.14d2f22b.css",
+    "main.js": "/Assignment-Upliance.ai/static/js/main.0877f77d.js",
+    "static/js/453.68693753.chunk.js": "/Assignment-Upliance.ai/static/js/453.68693753.chunk.js",
+    "index.html": "/Assignment-Upliance.ai/index.html",
+    "main.14d2f22b.css.map": "/Assignment-Upliance.ai/static/css/main.14d2f22b.css.map",
+    "main.0877f77d.js.map": "/Assignment-Upliance.ai/static/js/main.0877f77d.js.map",
+    "453.68693753.chunk.js.map": "/Assignment-Upliance.ai/static/js/453.68693753.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14d2f22b.css",
+    "static/js/main.0877f77d.js"
+  ]
+}
